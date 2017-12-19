@@ -384,6 +384,7 @@ def scanschedule():
         return jsonify(message=message,success=False,errors=crontab_errors)
 
     data = {
+      '_cls': 'PeriodicTask', # https://github.com/zmap/celerybeat-mongo:  because Mongoengine the database, objects must have a field _cls set to PeriodicTask 
       'task': "minion.backend.tasks.run_scheduled_scan",
       'args': [target, plan],
       'site': target,

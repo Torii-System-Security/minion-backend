@@ -1,3 +1,11 @@
+This Repository is here only for historical reasons.
+For those of you interested in vanilla Mozilla Minion, this repo only add the ability to use it on *Ubuntu 16.04*.
+
+New features and evolution based on minion can be found in Sente Repository (https://github.com/Torii-System-Security/Sente).  
+
+
+Original README.md : 
+
 This project contains the code for the Minion Backend. It provides an API to create and start scans and the machinery to
 execute the scan.
 
